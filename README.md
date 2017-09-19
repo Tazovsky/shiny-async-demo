@@ -1,6 +1,6 @@
 # Description
 
-This is simple app created to demonstrate how to execute some code in parallel process. In this case I achieved this by creating cluster and executing code in separate process on this cluster using `future` package.
+This is simple app created to demonstrate how to execute some code in parallel (asynchronous) process. In this case I achieved this by creating cluster and executing code in separate process on this cluster using `future` package.
 
 # Why?
 
@@ -11,4 +11,5 @@ When user were waiting dozen of minutes to finish calculations, sometimes it cou
 1. Inform user that process on cluster has finished
 2. Add error handling to cluster calculations
 
-## PS: You can look for similar problem on stackoverflow: https://stackoverflow.com/questions/46266338/r-shiny-run-task-script-in-different-process
+## PS: 
+You can look for similar soultion on stackoverflow: https://stackoverflow.com/questions/46266338/r-shiny-run-task-script-in-different-process
